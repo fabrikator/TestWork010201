@@ -1,0 +1,32 @@
+/*
+Theme Name:   	Storefront Child Theme
+Theme URI:    	#
+Author:       	Taras Kotvitskiy
+Author URI:     #
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+Text Domain:  	storefront
+*/
+/*
+ * Add your own custom css below this text.
+ */
+
+.city-search-form form input[name=city_search] {
+    width: 100%;
+}
+
+.widget-area .widget_cities_weather select {
+    padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    border: 0;
+    font-weight: 400;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+}
+
+.city-search-form form {
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 0 0 1em;
+    margin-bottom: 1em;
+}
